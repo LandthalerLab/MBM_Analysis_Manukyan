@@ -12,7 +12,7 @@ library(viridis)
 #library(xlsx)
 
 ####
-# TAP1 vs BZW2 in H25296 and H26352 nonTMA ####
+# TAP1 vs BZW2 in nonTMA ####
 ####
 
 # get data

@@ -35,7 +35,6 @@ colors <- DiscretePalette_scCustomize(num_colors = 4, palette = "varibow", shuff
 names(colors) <- unique(brain_vr$Sample)
 
 # data
-brain_vr <- readRDS("F:/MBM_TMA profiling/Xenium analyses NEU/VoltRonData/Voltron files/brain_nonTMA_all.rds")
 brain_vr <- readRDS("F:/MBM_TMA profiling/Xenium analyses NEU/brain_all_merged.rds")
 
 ## visualize samples separately on UMAP

@@ -24,9 +24,7 @@ library(Polychrome)
 ####
 
 # get TMA samples 
-Xenium_file <- readRDS("brain_vr_T170_annotated.rds")
-Xenium_file <- readRDS("brain_vr_H27660_annotated.rds")
-Xenium_file <- readRDS("brain_vr_H15340_annotated.rds")
+Xenium_file <- readRDS("temp.rds")
 
 # data
 brain_nonTMA_all <- readRDS("brain_nonTMA_all.rds")
